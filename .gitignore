@@ -1,0 +1,20 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore image captures
+captures/
+*.jpg
+*.jpeg
+*.png
+
+# Allow known_faces folder but ignore its contents (except maybe a placeholder)
+known_faces/*
+!known_faces/.gitkeep
+
+# Ignore Arduino build folders
+build/
+
+# Ignore virtual environments
+venv/
+.env
