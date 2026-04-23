@@ -18,13 +18,13 @@ A hybrid AI-powered IoT security system utilizing an ESP32 microcontroller and a
 *(Please upload the following images into the `images` folder to display them here)*
 
 ### Hardware Setup
-![Hardware Setup](images/hardware_setup.jpg)
+![Hardware Setup](images/Hardware_setup.jpeg)
 
 ### Web Dashboard
-![Web Interface](images/web_interface.jpg)
+![Web Interface](images/Web_%20interface.jpeg)
 
 ### Telegram Alerts
-![Telegram Alerts](images/telegram_alerts.jpg)
+![Telegram Alerts](images/Telegram%20Alert.jpeg)
 
 ## 🛠 Hardware Required
 
