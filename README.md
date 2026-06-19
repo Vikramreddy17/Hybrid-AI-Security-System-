@@ -27,7 +27,6 @@ This project features real-time Telegram alerts, PIR motion detection, and a sle
 
 ## 📸 Project Images
 
-*(Note: To display these screenshots locally, ensure the images are inside an `images` folder in your project root, named exactly as below.)*
 
 <div align="center">
   <table>
