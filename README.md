@@ -1,6 +1,18 @@
-# Hybrid AI Security System
+<div align="center">
+  <h1>🛡️ Hybrid AI Security System</h1>
+  <p><i>A hybrid AI-powered IoT security system utilizing an ESP32 microcontroller and a Python-based facial recognition engine.</i></p>
+  
+  <p>
+    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+    <img alt="ESP32" src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white">
+    <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+  </p>
+</div>
 
-A hybrid AI-powered IoT security system utilizing an ESP32 microcontroller and a Python-based facial recognition engine. This project features real-time Telegram alerts, PIR motion detection, and a sleek, dynamic web dashboard.
+---
+
+This project features real-time Telegram alerts, PIR motion detection, and a sleek, dynamic web dashboard to keep your environment secure.
 
 ## 🌟 Features
 
@@ -15,16 +27,28 @@ A hybrid AI-powered IoT security system utilizing an ESP32 microcontroller and a
 
 ## 📸 Project Images
 
-*(Please upload the following images into the `images` folder to display them here)*
+*(Note: To display these screenshots locally, ensure the images are inside an `images` folder in your project root, named exactly as below.)*
 
-### Hardware Setup
-![Hardware Setup](images/Hardware_setup.jpeg)
-
-### Web Dashboard
-![Web Interface](images/Web_%20interface.jpeg)
-
-### Telegram Alerts
-![Telegram Alerts](images/Telegram%20Alert.jpeg)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="images/Hardware_setup.jpeg" width="300px" alt="Hardware Setup" style="border-radius: 8px;"/><br>
+        <sub><i><b>Hardware Setup:</b> The ESP32, PIR sensor, and OLED display in action</i></sub>
+      </td>
+      <td align="center">
+        <img src="images/Web_%20interface.jpeg" width="300px" alt="Web Interface" style="border-radius: 8px;"/><br>
+        <sub><i><b>Web Dashboard:</b> Sleek UI showing live system status and recent events</i></sub>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="images/Telegram%20Alert.jpeg" width="350px" alt="Telegram Alerts" style="border-radius: 8px;"/><br>
+        <sub><i><b>Telegram Alerts:</b> Instant notifications with captured photos sent to your phone</i></sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 🛠 Hardware Required
 
@@ -43,33 +67,4 @@ A hybrid AI-powered IoT security system utilizing an ESP32 microcontroller and a
 1. Install Python 3.8+
 2. Install the necessary libraries:
    ```bash
-   pip install opencv-python face_recognition pyserial numpy requests 
-   ```
-3. Open `ai_security.py` and update the configurations:
-   - `PORT`: Set to your ESP32's COM Port (e.g., `'COM7'`)
-   - `BOT_TOKEN`: Enter your Telegram Bot Token.
-   - `CHAT_ID`: Enter your Telegram Chat ID.
-4. Create a folder named `known_faces` in the same directory as the script and place clear portrait images of known people inside it (e.g., `Lalithakala.jpg`, `Nandhini.jpg`).
-
-### 2. ESP32 Firmware Setup
-1. Install the Arduino IDE.
-2. Install the ESP32 Board Manager in Arduino IDE.
-3. Install the `U8g2` library by *oliver* from the Library Manager.
-4. Open the `esp32_firmware/esp32_firmware.ino` file.
-5. Update the WiFi credentials if you want to connect to a specific network, or use the default softAP credentials:
-   - `ssid = "YOUR_WIFI_SSID"`
-   - `password = "YOUR_WIFI_PASSWORD"`
-6. Upload the code to your ESP32.
-
-## 🚀 How to Run
-1. Make sure your ESP32 is powered on and connected via USB.
-2. Connect to the ESP32's Wi-Fi network (or your home network depending on your configuration).
-3. Access the Security Hub dashboard by visiting the ESP32's IP address in your browser (default softAP address is usually `192.168.4.1`).
-4. Run the Python script on your PC:
-   ```bash
-   python ai_security.py
-   ```
-5. Trigger the PIR sensor to test the system!
-
-## 📜 License
-This project is open-source and available under the [MIT License](LICENSE).
+   pip install opencv-python face_recognition pyserial numpy requests
